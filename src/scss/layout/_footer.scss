@@ -1,0 +1,13 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.sitio-footer {
+    background-color: v.$negro;
+    padding: 3rem;
+
+    p {
+        margin: 0;
+        color: v.$blanco;
+        text-align: center;
+    }
+}
